@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Windows10XLiveTile/static/css/main.34c34749.chunk.css",
+    "main.js": "/Windows10XLiveTile/static/js/main.31a0fc43.chunk.js",
+    "main.js.map": "/Windows10XLiveTile/static/js/main.31a0fc43.chunk.js.map",
+    "runtime-main.js": "/Windows10XLiveTile/static/js/runtime-main.93ae54ff.js",
+    "runtime-main.js.map": "/Windows10XLiveTile/static/js/runtime-main.93ae54ff.js.map",
+    "static/js/2.b56598d1.chunk.js": "/Windows10XLiveTile/static/js/2.b56598d1.chunk.js",
+    "static/js/2.b56598d1.chunk.js.map": "/Windows10XLiveTile/static/js/2.b56598d1.chunk.js.map",
+    "index.html": "/Windows10XLiveTile/index.html",
+    "precache-manifest.4da9b2a7b268794293ab79975f33c769.js": "/Windows10XLiveTile/precache-manifest.4da9b2a7b268794293ab79975f33c769.js",
+    "service-worker.js": "/Windows10XLiveTile/service-worker.js",
+    "static/css/main.34c34749.chunk.css.map": "/Windows10XLiveTile/static/css/main.34c34749.chunk.css.map",
+    "static/js/2.b56598d1.chunk.js.LICENSE.txt": "/Windows10XLiveTile/static/js/2.b56598d1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93ae54ff.js",
+    "static/js/2.b56598d1.chunk.js",
+    "static/css/main.34c34749.chunk.css",
+    "static/js/main.31a0fc43.chunk.js"
+  ]
+}
