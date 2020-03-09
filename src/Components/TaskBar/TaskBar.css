@@ -1,0 +1,16 @@
+.taskbar {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+.dark .taskbar {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.taskbar.center {
+    text-align: center;
+}

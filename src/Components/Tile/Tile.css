@@ -1,0 +1,137 @@
+/* Tiles size */
+.start .tile {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    padding-bottom: 20%;
+    vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+    .start .tile {
+        width: 25%;
+        padding-bottom: 25%;
+    }
+}
+@media (max-width: 480px) {
+    .start .tile {
+        width: 33.3%;
+        padding-bottom: 33.3%;
+    }
+}
+@media (max-width: 340px) {
+    .start .tile {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+}
+
+/* Tile faces */
+.tile__front, .tile__back
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 8px);
+    height: calc(100% - 8px);
+    margin: 4px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px -6px #7f7f7f;
+
+    -webkit-transition: transform 0.8s;
+    -moz-transition: transform 0.8s;
+    -ms-transition: transform 0.8s;
+    -o-transition: transform 0.8s;
+    transition: transform 0.8s;
+
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.dark .tile__front, .dark .tile__back {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/* Tile rotation */
+.tile__front
+{
+    z-index: 2;
+    -webkit-transform: perspective(800px) rotateX(0deg);
+    -moz-transform: perspective(800px) rotateX(0deg);
+    -ms-transform: perspective(800px) rotateX(0deg);
+    -o-transform: perspective(800px) rotateX(0deg);
+    transform: perspective(800px) rotateX(0deg);
+}
+.tile__back
+{
+    -webkit-transform: perspective(800px) rotateX(180deg);
+    -moz-transform: perspective(800px) rotateX(180deg);
+    -ms-transform: perspective(800px) rotateX(180deg);
+    -o-transform: perspective(800px) rotateX(180deg);
+    transform: perspective(800px) rotateX(180deg);
+}
+.tile.tile--rotate .tile__front
+{
+    -webkit-transform: perspective(800px) rotateX(-180deg);
+    -moz-transform: perspective(800px) rotateX(-180deg);
+    -ms-transform: perspective(800px) rotateX(-180deg);
+    -o-transform: perspective(800px) rotateX(-180deg);
+    transform: perspective(800px) rotateX(-180deg);
+}
+.tile.tile--rotate .tile__back
+{
+    -webkit-transform: perspective(800px) rotateX(0deg);
+    -moz-transform: perspective(800px) rotateX(0deg);
+    -ms-transform: perspective(800px) rotateX(0deg);
+    -o-transform: perspective(800px) rotateX(0deg);
+    transform: perspective(800px) rotateX(0deg);
+}
+
+/* Tile front */
+.tile__front__icon {
+    height: 100%;
+    padding: 18px 20px 32px 20px;
+    /* padding: 10px 12px 24px 12px; */
+}
+.tile__front__title {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 6px;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Tile back */
+.tile__back {
+    padding: 4px;
+}
+.tile__back__icon {
+    position: absolute;
+    height: 18px;
+    bottom: 4px;
+    right: 4px;
+}
+.tile__back__title {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 6px;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.tile__back__icon + .tile__back__title {
+    right: 22px;
+    text-align: left;
+}

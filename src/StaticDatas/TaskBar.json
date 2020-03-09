@@ -1,0 +1,12 @@
+{
+    "taskbarEntries": [
+        {
+            "title": "Microsoft Edge",
+            "image": "edge.png"
+        },
+        {
+            "title": "Groove Music",
+            "image": "groove.png"
+        }
+    ]
+}

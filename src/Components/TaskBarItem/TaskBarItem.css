@@ -1,0 +1,27 @@
+.taskbar-item {
+    height: 100%;
+    vertical-align: middle;
+}
+
+.taskbar-item > * {
+    height: 100%;
+    font-size: 22px;
+    padding: 12px;
+    vertical-align: middle;
+    
+    color: #5b5b5b;
+    fill: #5b5b5b;
+}
+.dark .taskbar-item > * {
+    color: #bdbdbd;
+    fill: #bdbdbd;
+}
+
+.taskbar-item--selected > * {
+    color: #000000;
+    fill: url(#selected);
+}
+.dark .taskbar-item--selected > * {
+    color: #ffffff;
+    fill: url(#selected);
+}

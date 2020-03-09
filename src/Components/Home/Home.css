@@ -1,0 +1,8 @@
+.home {
+    height: 100%;
+
+    background-image: url("/Windows10XLiveTile/backgrounds/surface-neo.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}

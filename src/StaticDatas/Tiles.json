@@ -1,0 +1,199 @@
+{
+    "tiles": [
+        {
+            "title": "Microsoft Edge",
+            "image": "edge.png",
+            "liveTile": [
+                {
+                    "type": "visual",
+                    "content": [
+                        {
+                            "type": "binding",
+                            "template": "TileMedium",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "content": "A new Edge",
+                                    "hintStyle": "base",
+                                    "hintAlign": "center"
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Try out this new web browser!",
+                                    "hintWrap": true,
+                                    "hintStyle": "bodySubtle",
+                                    "hintAlign": "center"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Mail",
+            "image": "mail.png",
+            "liveTile": [
+                {
+                    "type": "visual",
+                    "content": [
+                        {
+                            "type": "binding",
+                            "template": "TileMedium",
+                            "branding": "nameAndLogo",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "content": "Windows Insider Program"
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "The Slow ring jumps to 20H1 (and what that means for you)",
+                                    "hintWrap": true,
+                                    "hintStyle": "captionSubtle"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Calendar",
+            "image": "calendar.png"
+        },
+        {
+            "title": "Calculator",
+            "image": "calculator.png"
+        },
+        {
+            "title": "Groove Music",
+            "image": "groove.png",
+            "liveTile": [
+                {
+                    "type": "visual",
+                    "content": [
+                        {
+                            "type": "binding",
+                            "template": "TileMedium",
+                            "branding": "nameAndLogo",
+                            "content": [
+                                {
+                                    "type": "image",
+                                    "src": "./live-tile/album.png",
+                                    "alt": "Now playing",
+                                    "placement": "background",
+                                    "hintOverlay": 60
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "One Thing Left To Do",
+                                    "hintWrap": true,
+                                    "hintStyle": "body"
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Deepend",
+                                    "hintStyle": "bodySubtle"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Solitaire",
+            "image": "solitaire.png"
+        },
+        {
+            "title": "Office",
+            "image": "office.png"
+        },
+        {
+            "title": "Word",
+            "image": "word.png"
+        },
+        {
+            "title": "PowerPoint",
+            "image": "powerpoint.png"
+        },
+        {
+            "title": "Excel",
+            "image": "excel.png",
+            "liveTile": [
+                {
+                    "type": "visual",
+                    "content": [
+                        {
+                            "type": "binding",
+                            "template": "TileMedium",
+                            "branding": "nameAndLogo",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "content": "Paul just edited \"Orders.xlsx\" on OneDrive",
+                                    "hintWrap": true,
+                                    "hintStyle": "caption"
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "See what's new!",
+                                    "hintWrap": true,
+                                    "hintStyle": "captionSubtle"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Alarms & Clock",
+            "image": "alarms.png",
+            "liveTile": [
+                {
+                    "type": "visual",
+                    "content": [
+                        {
+                            "type": "binding",
+                            "template": "TileMedium",
+                            "branding": "name",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "content": "Next alarm",
+                                    "hintStyle": "base",
+                                    "hintAlign": "center"
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Wake up at 6:30 AM",
+                                    "hintWrap": true,
+                                    "hintStyle": "bodySubtle",
+                                    "hintAlign": "center"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Movies & TV",
+            "image": "movies.png"
+        },
+        {
+            "title": "Feedback Hub",
+            "image": "feedback-hub.png"
+        },
+        {
+            "title": "Voice Recorder",
+            "image": "voice-recorder.png"
+        },
+        {
+            "title": "Your Phone",
+            "image": "your-phone.png"
+        }
+    ]
+}

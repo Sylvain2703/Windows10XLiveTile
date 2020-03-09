@@ -1,0 +1,21 @@
+.tile__image {
+    overflow: hidden;
+    background: white;
+}
+.dark .tile__image {
+    background: black;
+}
+.tile__image > img {
+    width: 100%;
+}
+
+.tile__image.--background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.tile__image.--crop-circle {
+    border-radius: 100%;
+}

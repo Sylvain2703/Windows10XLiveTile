@@ -1,0 +1,54 @@
+.tile__text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 1px 1px 3px 1px;
+    line-height: 1.1;
+}
+
+.tile__text.--wrap {
+    white-space: normal;
+}
+
+.tile__text.--subtle {
+    opacity: 0.6;
+}
+
+.tile__text.--caption {
+    font-size: 12px;
+    font-weight: 400;
+}
+.tile__text.--body {
+    font-size: 15px;
+    font-weight: 400;
+}
+.tile__text.--base {
+    font-size: 15px;
+    font-weight: 600;
+}
+.tile__text.--subtitle {
+    font-size: 20px;
+    font-weight: 400;
+}
+.tile__text.--title {
+    font-size: 24px;
+    font-weight: 200;
+}
+.tile__text.--subheader {
+    font-size: 34px;
+    font-weight: 100;
+}
+.tile__text.--header {
+    font-size: 46px;
+    font-weight: 100;
+}
+
+.tile__text.--left {
+    text-align: left;
+}
+.tile__text.--center {
+    text-align: center;
+}
+.tile__text.--right {
+    text-align: right;
+}

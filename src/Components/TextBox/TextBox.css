@@ -1,0 +1,60 @@
+.textbox {
+    position: relative;
+}
+
+.textbox__input {
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid #999999;
+    background: #ffffff;
+    color: #000000;
+    padding: 4px 6px 5px 6px;
+    outline: none;
+    border-radius: 2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.dark .textbox__input {
+    border: 2px solid #666666;
+    background: #000000;
+    color: #ffffff;
+}
+
+.textbox__input:hover {
+    border: 2px solid #666666;
+}
+.dark .textbox__input:hover {
+    border: 2px solid #999999;
+}
+
+.textbox__input:active, .textbox__input:focus {
+    border: 2px solid #2d63bb;
+}
+.dark .textbox__input:active, .dark .textbox__input:focus {
+    border: 2px solid #2d63bb;
+}
+
+.textbox__input--left-btn {
+    padding-left: 30px;
+}
+.textbox__input--right-btn {
+    padding-right: 30px;
+}
+
+.textbox__input::-ms-clear {
+    display: none;
+}
+
+.textbox .textbox__left-btn, .textbox .textbox__right-btn {
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    padding: 0px 8px;
+}
+.textbox .textbox__left-btn {
+    left: 2px;
+}
+.textbox .textbox__right-btn {
+    right: 2px;
+}

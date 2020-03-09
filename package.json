@@ -1,0 +1,38 @@
+{
+  "name": "windows10x-livetile",
+  "description": "A concept of Windows 10X interface with Live Tiles",
+  "version": "0.1.0",
+  "author": "Sylvain Bruyère",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sylvain2703/Windows10XLiveTile.git"
+  },
+  "homepage": "https://sylvain2703.github.io/Windows10XLiveTile",
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "3.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
