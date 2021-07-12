@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Windows10XLiveTile/precache-manifest.4da9b2a7b268794293ab79975f33c769.js"
+  "/Windows10XLiveTile/precache-manifest.eeeede06b46a2e6e29ed5c29c2d04467.js"
 );
 
 self.addEventListener('message', (event) => {

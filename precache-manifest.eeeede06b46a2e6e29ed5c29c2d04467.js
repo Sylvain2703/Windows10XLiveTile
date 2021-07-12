@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "15154c40ce563207d8f5494e0dac77dc",
+    "revision": "cfa557882f6d20b4d89ceba516a9ea24",
     "url": "/Windows10XLiveTile/index.html"
   },
   {
-    "revision": "12fbf2653f4a58da1594",
-    "url": "/Windows10XLiveTile/static/css/main.34c34749.chunk.css"
+    "revision": "7f005a1f02c0d81f378c",
+    "url": "/Windows10XLiveTile/static/css/main.1ff7b376.chunk.css"
   },
   {
     "revision": "6741289d3ef2d5709d31",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Windows10XLiveTile/static/js/2.b56598d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "12fbf2653f4a58da1594",
-    "url": "/Windows10XLiveTile/static/js/main.31a0fc43.chunk.js"
+    "revision": "7f005a1f02c0d81f378c",
+    "url": "/Windows10XLiveTile/static/js/main.f48ae802.chunk.js"
   },
   {
     "revision": "62c8ea7796edf84795dc",
