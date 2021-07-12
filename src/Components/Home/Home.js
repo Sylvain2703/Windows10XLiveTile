@@ -49,7 +49,7 @@ function Home() {
             <TaskBar isStartOpened={startOpened}
                 onStartClick={() => setStartOpened(!startOpened)} onTaskViewClick={toggleFullScreen}>
                 {DataTaskBar.taskbarEntries.map((entries, index) =>
-                    <TaskBarItem image={entries.image} title={entries.title} />
+                    <TaskBarItem key={index} image={entries.image} title={entries.title} />
                 )}
             </TaskBar>
         </div>
